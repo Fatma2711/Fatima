@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(128, 128, 128, 0.021);
+}
+.countiner-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.Services-titel {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(238, 155, 1);
+    margin-top: 80px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.my-work-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.Services-description {
+    font-family: Arial;
+    font-size: 14px;
+    width: 500px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.Web-Desing-countiner-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width: 1000px) {
+    .Web-Desing-countiner-flex {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Web-Desing-countiner-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Web-Desing-countiner-grid {
+        margin-bottom: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.Web-Desing-countiner-grid {
+    display: grid;
+    justify-items: center;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.15);
+    border-radius: 8px;
+    padding: 40px 15px;
+    background-color: white;
+}
+
+.Web-Desing-icon {
+    width: 140px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.Web-Desing-title {
+    font-size: 24px;
+}
+
+.Web-Desing-description {
+    width: 270px;
+    
+}

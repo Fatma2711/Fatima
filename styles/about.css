@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.021);
+}
+
+.Resume-picture {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-bottom: 100px;
+}
+
+.Resume-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 200px;
+}
+
+@media (max-width: 1000px) {
+    .Resume-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .countiner-About {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+.My-name {
+    color: black;
+    width: 400px;
+    font-size: 24px;
+    line-height: 60px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.name-span {
+    color: rgb(238, 155, 1);
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 2px;
+}
+
+.Desingner-span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.CONACTE-button {
+    background-color: rgb(238, 155, 1);
+    color: white;
+    border: none;
+    padding: 15px 18px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Resume-description {
+    color: black;
+    width: 400px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
